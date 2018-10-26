@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:server": "node bin/server",
+    "start:client": "node bin/client",
     "build": "tsc"
   },
   "repository": {
