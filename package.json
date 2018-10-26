@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/myungjaeyu/tgrid-exam#readme",
   "dependencies": {
-    "tgrid": "0.0.15",
-    "tstl": "^2.0.8"
+    "tgrid": "0.0.15"
   },
   "devDependencies": {
     "@types/node": "^10.12.0",
