@@ -1,7 +1,7 @@
 import { Vector } from 'tstl/container'
 import { WebServer } from 'tgrid/protocol/web'
 
-(() : void => {
+async function main() : Promise<void> {
 
     const server = new WebServer()
 
@@ -11,4 +11,6 @@ import { WebServer } from 'tgrid/protocol/web'
         await acceptor.listen(new Vector<number>())
     })
 
-})()
+}
+
+main().then(_ => console.log('🚀  Started'))
