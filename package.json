@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/myungjaeyu/tgrid-chat/issues"
   },
-  "homepage": "https://github.com/myungjaeyu/tgrid-chat#readme"
+  "homepage": "https://github.com/myungjaeyu/tgrid-chat#readme",
+  "dependencies": {
+    "tgrid": "0.0.15",
+    "tstl": "^2.0.8"
+  }
 }
