@@ -1,5 +1,5 @@
 {
-  "name": "tgrid-chat",
+  "name": "tgrid-exam",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/myungjaeyu/tgrid-chat.git"
+    "url": "git+https://github.com/myungjaeyu/tgrid-exam.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/myungjaeyu/tgrid-chat/issues"
+    "url": "https://github.com/myungjaeyu/tgrid-exam/issues"
   },
-  "homepage": "https://github.com/myungjaeyu/tgrid-chat#readme",
+  "homepage": "https://github.com/myungjaeyu/tgrid-exam#readme",
   "dependencies": {
     "tgrid": "0.0.15",
     "tstl": "^2.0.8"
