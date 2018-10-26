@@ -1,5 +1,7 @@
-import { Vector } from 'tstl/container'
 import { WebConnector } from 'tgrid/protocol/web'
+import { Driver } from 'tgrid/base'
+
+import IExam from './internal/IExam'
 
 async function main() : Promise<void> {
 
@@ -8,13 +10,9 @@ async function main() : Promise<void> {
     await connector.connect('ws://127.0.0.1:10101')
     await connector.wait()
 
-    const v = connector.getDriver<Vector<number>>()
+    const exam : Driver<IExam> = connector.getDriver<IExam>()
 
-    for (let i : number = 0; i < 5; ++i) await v.push_back(i)
-
-    console.log('size:', await v.size())
-
-    for (let i : number = 0; i < await v.size(); ++i) console.log('  element:', await v.at(i))
+    console.log(await exam.send('u4bi'))
 
     await connector.close()
 
